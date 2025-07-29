@@ -23,6 +23,7 @@ use_serde = ["dep:serde", "enumset/serde", "heapless/serde"]
 use_strum = ["strum", "strum_macros"]
 use_numenum = ["num_enum"]
 defmt = ["dep:defmt", "heapless/defmt", "embedded-io/defmt", "embedded-io-async/defmt"]
+mqtt_protocol_v5 = []
 
 [dependencies]
 heapless = { version = "0.9" }
