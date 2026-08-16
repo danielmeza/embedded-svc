@@ -27,8 +27,8 @@ mqtt_protocol_v5 = []
 
 [dependencies]
 heapless = { version = "0.8" }
-embedded-io = { version = "0.6", default-features = false }
-embedded-io-async = { version = "0.6", default-features = false }
+embedded-io = { version = "0.7", default-features = false }
+embedded-io-async = { version = "0.7", default-features = false }
 log = { version = "0.4", default-features = false, optional = true }
 serde = { version = "1", default-features = false, features = ["derive"], optional = true }
 enumset = { version = "1", default-features = false }
